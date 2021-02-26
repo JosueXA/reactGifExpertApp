@@ -1,15 +1,19 @@
 * {
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
+  background-color: #21232A;
   padding: 60px;
 }
 
 input {
-  color: grey;
+  border: 1px solid orange;
+  border-radius: 7px;
+  color: orange;
   font-size: 1.2rem;
-  width: 100%;
+  width: 80%;
 }
 
 .card-grid {
@@ -20,8 +24,8 @@ input {
 
 .card {
   align-content: center;
-  border: 1px solid grey;
-  border-radius: 6px;
+  border: 1px solid purple;
+  border-radius: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: hidden;
